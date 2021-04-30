@@ -1,38 +1,39 @@
 // //////// RAISIN //////// //
 
 -
-  var dev = {
-    'regex101': 'regex101.com', 
-    'codewars': 'codewars.com', 
-    'dev.to': 'dev.to',
-    'css tricks': 'css-tricks.com'
+  var school = {
+    'ufora': 'ufora.ugent.be',
+    'mail': 'outlook.office.com',
+    'sharepoint': 'ugentbe-my.sharepoint.com',
+    'bib': 'lib.ugent.be'
   }
 
-  var colors = {
-    'coolors': 'coolors.co',
-    'color space': 'mycolor.space/',
-    'color hunt': 'colorhunt.co',
-    'gradient magic': 'gradientmagic.com'
+  var reddit = {
+    '/r Selfhosted': 'reddit.com/r/selfhosted/',
+    '/r Startpages': 'reddit.com/r/startpages/',
+    '/r Truenas': 'reddit.com/r/truenas/',
+    '/r James Hoffman': 'reddit.com/r/JamesHoffmann/',
+    '/r 3d printing': 'reddit.com/r/3Dprinting/'
   }
 
   var css = {
     'fancy borders': '9elements.github.io/fancy-border-radius',
     'transform visualizer': 'css-transform.moro.es',
     'css doodle': 'css-doodle.com',
-    'css stats': 'cssstats.com',
+    'css stats': 'cssstats.com'
   }
 
   var fonts = {
     'type scale': 'type-scale.com',
     'fonts in use': 'fontsinuse.com',
     'font joy': 'fontjoy.com',
-    'zenigata': 'typo.zenigata.fr',
+    'zenigata': 'typo.zenigata.fr'
   }
 
 
 mixin raisin(title, data)
   raisin
-    raisin-header 
+    raisin-header
       p.raisin-title #{title}
     raisin-links
       each val, key in data
