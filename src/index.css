@@ -30,12 +30,12 @@ textarea {
 
 :root {
   /* colors */
-  --main: hsl(220, 21%, 17%);
-  --main-light: hsl(30, 35%, 40%);
-  --module-background: hsl(31, 77%, 60%);
-  --search-background: hsl(4, 100%, 74%);
+  --main: hsl(126, 12%, 50%);
+  --main-light: hsl(126, 12%, 50%);
+  --module-background: hsl(39, 82%, 60%);
+  --search-background: hsl(39, 82%, 60%);
   --pomme-background: hsl(118, 18%, 66%);
-  --myrtille-background: hsl(235, 17%, 63%);
+  --myrtille-background: hsl(39, 82%, 60%);
 
   /* font-family */
   --font-family-sans: system-ui, -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, ubuntu, 'Helvetica Neue', sans-serif;
